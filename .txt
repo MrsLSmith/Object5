@@ -1,0 +1,10 @@
+<h1>Superheroes</h1>
+<section>
+<button class="test" style="background-color:white" type="button">List Heroes</button>
+<p></p>
+<button class="test" style="background-color:lightgreen" type="button">List Headings</button>
+<p></p>
+<button class="test" style="background-color:lightblue" type="button"  onclick="showTable()">Show Table</button>
+<p></p>
+</section>
+<table id="results"></table>
