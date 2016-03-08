@@ -18,3 +18,16 @@ margin-left:10px;
   height:30px;
   width:100px;
 }
+
+#results1, #results2, #headings{
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 3px solid white;
+}
