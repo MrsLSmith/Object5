@@ -14,15 +14,15 @@ var superheroes = [{
 
 function showTable() {
   for(var i=0; i < 3; i++) {
-    document.getElementById('results').innerHTML += "<tr>";
-    document.getElementById('results').innerHTML += "<td>" + superheroes[i].Name + "</td>" + "<td>" + superheroes[i].Color + "</td>" + "<td>"+ superheroes[i].Superpower + "</td>";
-    document.getElementById('results').innerHTML += "</tr>";
+    document.getElementById('results2').innerHTML += "<tr>";
+    document.getElementById('results2').innerHTML += "<td>" + superheroes[i].Name + "</td>" + "<td>" + superheroes[i].Color + "</td>" + "<td>"+ superheroes[i].Superpower + "</td>";
+    document.getElementById('results2').innerHTML += "</tr>";
   }
 };
 
 function listHeroes() {
   for (var i = 0; i < 3; i++) {
- document.getElementById('results').innerHTML += superheroes[i].Name + "<p></p>";
+ document.getElementById('results1').innerHTML += superheroes[i].Name + "<p></p>";
   }
 };
 
@@ -32,6 +32,5 @@ function listHeadings() {
   for (var key in headings) {
    list += "<p>" + key + "</p>";
   }
-  alert(list);
   document.getElementById('headings').innerHTML = list;
-}
+};
